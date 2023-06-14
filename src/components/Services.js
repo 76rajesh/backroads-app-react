@@ -1,8 +1,7 @@
 import Title from './Title'
 import { services } from '../data'
 import Service from './Service'
-
-export const Services = () => {
+ const Services = () => {
   return (
        <section className='section services' id ='services'>
          <Title title='our'  subTitle='services'/>
@@ -15,3 +14,4 @@ export const Services = () => {
        </section>
   )
 }
+export default Services;
